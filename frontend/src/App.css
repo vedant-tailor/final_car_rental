@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.app {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Add padding-top to account for fixed navbar */
+main {
+  padding-top: 64px;
+  flex: 1;
+}
